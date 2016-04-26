@@ -1,0 +1,44 @@
+﻿<html>
+ <head>
+ <title>Desafio</title>
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://file.myfontastic.com/4kgkYVMyM2f2moCBNHGBCm/icons.css" rel="stylesheet">
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+ <script type="text/javascript" src="js/funcoes.js"></script>
+ </head>
+<body>
+<nav>
+    <a href="" class="logo"><h1 class="logo"><i class="icon-paper-plane"></i>  Des<font class="color_title">afio</font></h1></a>
+</nav>
+
+<section id="conteudo">
+ <fieldset>
+  <table>
+   <div class="form-style">
+	<h1>Avaliação</h1>
+	<form name="form1" id="frmCadastro" onSubmit="return validaRadio()">
+	<div class="section"><span>1</span>Como você avalia a qualidade dos nossos serviços?</div>
+	 <div class="inner-wrap">
+	   <input  type="radio"  name="avaliacao"   value="Ótimo" checked /><label>Ótimo</label> </br>
+	   <input  type="radio"  name="avaliacao"   value="Bom"   /><label>Bom</label></br>
+	   <input  type="radio"  name="avaliacao"   value="Regular" /><label>Regular</label></br>
+	   <input  type="radio"  name="avaliacao"   value="Ruím" /><label>Ruím</label></br>
+	 </div>
+	<div class="section"><span>2</span>Gostaria de contribuir com alguma sugestão?</div>
+	 <div class="inner-wrap">
+	   <textarea placeholder="Sugestão" name="mensagem" rows="10" cols="60" id="txtMensagem" onkeyup="adjust_textarea(this)"></textarea></br></br>
+	 </div>
+	   <input class="botao" type="submit" value="Salvar" id="btnSalvar"/>
+	</form>
+  </table>
+ </fieldset>
+ 
+ <table id="tblListar">
+ </table>
+ 
+</section>
+<footer id="rotape">
+<p class="rotape">Copyright © 2016 - Desafio</p>
+</footer>
+</body>
+</html>
