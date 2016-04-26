@@ -5,11 +5,13 @@ Adicione a seguinte linha em seu __desafio.html__
 ```sh
  <link rel="stylesheet" href="css/style.css">
  <script type="text/javascript" src="js/funcoes.js"></script>
-```
+ ```
+O arquivo "funcoes.js" na pasta __js__ </br>
+O arquivo "style.css" na pasta __css__
 
 # Informações 
 
-Pasta js no arquivo __funcao.js__
+Pasta js no arquivo __funcoes.js__
 
 * Função Adicionar:
 	
