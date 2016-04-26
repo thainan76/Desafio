@@ -56,23 +56,6 @@ function Listar(){
 		 }
 	}
 ```
-	
-* Função Validação:
-
-```sh
-function validaRadio() {
- 
-  var texto = document.getElementById('end');
- 
-  if (document.form1.avaliacao[0].checked == false 
-    && document.form1.avaliacao[1].checked == false) {
-    alert('Por favor, selecione o avaliação.');
-    texto.style.color = "#ff0000";
-    return false;
-  }
-  return true;
-}
-```
 
 Arquivo __desafio.html__
 
@@ -100,6 +83,8 @@ Arquivo __desafio.html__
  <table id="tblListar">
  </table>
 ```
+
+> Não temos validação no formulário do tipo mensagem(textarea), pois é uma sugestão, não é obrigado.
 
 # Test na Web
 <img src="http://imgur.com/B7VHv8P.png"/>
